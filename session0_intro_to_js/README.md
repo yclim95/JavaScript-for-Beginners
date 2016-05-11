@@ -18,3 +18,14 @@
     </body>
 </html>
 ```
+
+#Major Web Development Technologies
+
+| Client Side         |  Server Side  |
+| ------------------- |-------------- |
+|  HTML (HTML5,XHTML) |     PHP       |
+|  CSS                | .net(VB & C#) |
+|  Javascript         | J2EE (Java)   |
+|                     | CodldFusion   |
+|                     | Perl/CGI      |
+|                     | Ruby on Rails |
