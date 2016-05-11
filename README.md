@@ -8,3 +8,4 @@ Become more important lately as more processing moves from the server side to th
 
 #Lessons
 1. [Session 0: Intro](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session0_intro_to_js)
+2. [Session 1: Hello to JS](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session1_hello_js)
