@@ -15,7 +15,7 @@ document.write("<strong>Hello from javascript</strong>");
 
 You can [review the full code here](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session1_hello_js/first_javascript.html) 
 
-## Where to place the Javascript code <script> tag
+## Where to place the Javascript code `<script>` tag
 There is 3 ways placing it : 
 
 1. Place between the `<body>` tag
