@@ -16,5 +16,6 @@
 
 ![Output](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session1_hello_js/lab_exercise_1/lab_exercise1.png)
 
+
 **References** 
 1. https://thenewboston.com/forum/topic.php?id=751
