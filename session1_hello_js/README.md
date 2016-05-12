@@ -53,4 +53,4 @@ Normally, it is recommended to place Javascript code `<script>` tag between `<bo
 That's why we normally place `function` inside the `<head>` tag & call back the function in `<body>` tag to execute the command in the function. 
 
 
-[Click Here to Lab Exercise 1]()
+[Click Here to Lab Exercise 1](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session1_hello_js/lab_exercise_1)
