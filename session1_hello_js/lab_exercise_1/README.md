@@ -12,6 +12,9 @@
 
 6. Again test in the browser of your choice. Insure that the browser output is correct. If the output is incorrect debug your code to create the correct output.
 
-Output: 
+**Output:** 
 
 ![Output](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session1_hello_js/lab_exercise_1/lab_exercise1.png)
+
+**References** 
+1. https://thenewboston.com/forum/topic.php?id=751
