@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Conditional if-else, else-if</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var playerScore = 25000;
+			var highScore = 10000;
+
+			if (playerScore > highScore){
+				highScore = playerScore;
+				document.write("You attained the high score!");
+			}else{
+				document.write("You did not attain the high score.");
+			}
+
+			var numericalGrade = 95
+			var letterGrade;
+
+			if (numericalGrade >= 90){
+				letterGrade = "A"; //if this is true, execute this
+			}else if (numericalGrade >= 80){
+				letterGrade = "B"; //if this is true, execute this
+			}else if (numericalGrade >= 70){
+				letterGrade = "C"; //if this is true, execute this
+			}else if (numericalGrade >= 60){
+				letterGrade = "D"; //if this is true, execute this
+			}else{
+				letterGrade = "F"; //if this is true, execute this
+			}
+
+			document.write("<br />Your grade is " + letterGrade);
+		</script>
+	</body>
+</html>

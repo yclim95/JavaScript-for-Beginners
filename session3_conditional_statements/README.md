@@ -54,6 +54,44 @@ if (age >= 18 && citizen == true){ //Conditional
 }
 ```
 
-`&&` (AND) will return true if only if the 2 condition is TRUE else if will return FALSE. 
+`&&` (AND) will return true if only if the 2 condition is **TRUE** else if will return **FALSE**. 
 
-`||` (OR) will return FALSE if only if the 2 condition have not met and will return TRUE otherwise.
+`||` (OR) will return **FALSE** if only if the 2 condition have not met and will return **TRUE** otherwise.
+
+
+## Conditional If-Else Statement 
+
+```javascript
+var playerScore = 25000;
+var highScore = 10000;
+
+if (playerScore > highScore){
+	highScore = playerScore;
+	document.write("You attained the high score!"); //Output
+}else{
+	document.write("You did not attain the high score.");
+}
+```
+
+## Conditional Else-If statement
+
+Hmm... we already learn how to use if-else statement and it seems al'right. But what if we would want to compare more than 2 ? Then, we have to use the **else-if** statement. 
+
+```javascript
+var numericalGrade = 95
+var letterGrade;
+
+if (numericalGrade >= 90){
+	letterGrade = "A"; //if this is true, execute this
+}else if (numericalGrade >= 80){
+	letterGrade = "B"; //if this is true, execute this
+}else if (numericalGrade >= 70){
+	letterGrade = "C"; //if this is true, execute this
+}else if (numericalGrade >= 60){
+	letterGrade = "D"; //if this is true, execute this
+}else{
+	letterGrade = "F"; //if this is true, execute this
+}
+
+document.write("<br />Your grade is " + letterGrade);
+```
