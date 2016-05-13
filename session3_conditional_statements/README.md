@@ -2,11 +2,11 @@
 
 ## Conditional Operator 
 
-```
+```javascript
 /*
 Comaprison Operators
 
-**==**  Equivalence 
+==  Equivalence 
 === Equaivalance in value & type
 	1 == "1" true
 	1 === "1" false
