@@ -15,7 +15,6 @@
 | 50-59      |"Enjoy your life now! You’ve dont well."|
 | 60 or Over |"60 is the new 40. Do something exciting!"|
 
-
 3. Test your code. Try changing the value in age and make sure it still works correctly.
 
 4. Declare and initialize a variable called `discountCode` and assign it the value `C`. Declare another variable called `discountRate`. Use a **switch/case/break** structure to determine the value of `discountRate` based on the `discountCode`. If the discount code is A the discount rate is .0325. If the discount code is B the discount rate is .05. If the discount code is C the discount rate is .075. If the discount rate is D the discount rate is .10.
