@@ -40,7 +40,7 @@ var userAge = 21 // Combined initialization/declaration
 document.write(userAge);
 ```
 
-[Click here for the full source code]()
+[Click here for the full source code for this part](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session2_storing_informations/variable.html)
 
 
 ## Operators & Operand
@@ -93,6 +93,8 @@ document.write(operandTwo);
 #### B. PostFix && Prefix Operator
 
 ```javascript
+var variable = 5;
+
 variable++  //PostFix Increment Operator 
 variable-- //PreFix Increment Operator 
 
@@ -118,3 +120,5 @@ var fullTeamInfo = teamCity + " " + teamName;
 document.write("<br />");
 document.write(fullTeamInfo); //New York Yankees
 ```
+
+[Click here for the full source code for this part](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session2_storing_informations/variable_operators.html)
