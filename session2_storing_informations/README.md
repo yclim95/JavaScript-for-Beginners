@@ -122,3 +122,7 @@ document.write(fullTeamInfo); //New York Yankees
 ```
 
 [Click here for the full source code for this part](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session2_storing_informations/variable_operators.html)
+
+
+## Exercise 
+[Click here for exercise for this lesson](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session2_storing_informations/lab_exercise_2)

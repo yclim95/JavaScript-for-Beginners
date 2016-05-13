@@ -22,3 +22,8 @@ document.write(operand1 + “ + “ + operand2 + “ = “ + (operand1+operand2)
 ```
 
 7. Demonstrate your knowledge of the **increment** and **decrementing** operators by incrementing operand1 and decrementing operand2. Display the results after using the increment and decrement operators.
+
+
+**Output:** 
+
+![Output](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session2_storing_informations/lab_exercise_2/lab_exercise2.png)
