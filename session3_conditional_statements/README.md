@@ -1,6 +1,6 @@
 #Session3 Conditional Statement
 
-## Conditional Operator 
+## 1. Conditional Operator 
 
 ```javascript
 /*
@@ -23,7 +23,7 @@ Comaprison Operators
 */
 ```
 
-## Conditional IF Statement 
+## 2. Conditional IF Statement 
 `if` is used to compare something. It pretty come in handy especially when you want to evaluate something & it is easy to learn. 
 
 ```javascript
@@ -73,7 +73,7 @@ if (playerScore > highScore){
 }
 ```
 
-## Conditional Else-If statement
+## 3. Conditional Else-If statement
 
 Hmm... we already learn how to use if-else statement and it seems al'right. But what if we would want to compare more than 2 ? Then, we have to use the **else-if** statement. 
 
@@ -95,3 +95,43 @@ if (numericalGrade >= 90){
 
 document.write("<br />Your grade is " + letterGrade);
 ```
+
+## 4. Switch statement 
+
+There is an alternative for else-if statement which is more neater and more readable comapre to else-if statment. 
+
+
+```javascript
+			var letterGrade = "A";
+
+			switch (letterGrade){
+				case "A":
+				case "a":
+					document.write("A is an execellent grade!");
+					break;
+
+				case "B":
+				case "b":
+					document.write("B is a good grade!");
+					break;
+
+				case "C":
+				case "b":
+					document.write("C is an average grade!");
+					break;
+
+				case "D":
+				case "d":
+					document.write("D is a low passing grade!");
+					break;
+
+				case "F":
+				case "f":
+					document.write("F is a failure. You must repeat this course");
+					break;
+
+				default:
+					document.write("Grade is not recognized!");
+```
+
+The keyword `break` is use after the case statement as you can see except for the default statement. If letterGrade is equal to "A" and it go inside the switch and look for the case that matches that. If the 1st case does not match if will break of and go to the following one until it reaches the right place, else if none of them met the requirement, then the default statement will be executed.
