@@ -6,12 +6,12 @@
 /*
 Comaprison Operators
 
-<b>==</b>  Equivalence 
-<b>===</b> Equaivalance in value & type
+**==**  Equivalence 
+=== Equaivalance in value & type
 	1 == "1" true
 	1 === "1" false
-<b>></b> Greater than 
-<b><</b> Less than 
+> Greater than 
+< Less than 
 >= Greater than or =
 <= Less then or  =
 != Not Equal to 
