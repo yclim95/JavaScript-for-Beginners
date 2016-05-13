@@ -27,8 +27,8 @@
 
 **Output**
 
-![Output]()
+![Output](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session3_conditional_statements/lab_exercise3/lab_exercise3.png)
 
 
 **Sample Code**
-[Click here for full sample code]()
+[Click here for full sample code](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session3_conditional_statements/lab_exercise3/lab_exercise3.html)

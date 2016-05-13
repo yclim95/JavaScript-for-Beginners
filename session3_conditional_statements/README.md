@@ -135,3 +135,7 @@ There is an alternative for else-if statement which is more neater and more read
 ```
 
 The keyword `break` is use after the case statement as you can see except for the default statement. If letterGrade is equal to "A" and it go inside the switch and look for the case that matches that. If the 1st case does not match if will break of and go to the following one until it reaches the right place, else if none of them met the requirement, then the default statement will be executed.
+
+
+## Exercise 
+[Click here for exercise for this lesson](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session3_conditional_statements/lab_exercise3)
