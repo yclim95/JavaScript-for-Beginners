@@ -22,8 +22,12 @@ The total each month: totalMoney + (interestRate * totalMoney)
 
 **Output**
 
-![Output]()
+![Output Part1](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session5_loops/lab_exercise5/first_part.png)
+
+![Output Part2](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session5_loops/lab_exercise5/second_part.png)
 
 
 **Sample Code**
-[Click here for full sample code]()
+
+[Click here for full sample code Part 1](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session5_loops/lab_exercise5/lab_exercise5_first.html)
+[Click here for full sample code Part 2](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session5_loops/lab_exercise5/lab_exercise5_second.html)

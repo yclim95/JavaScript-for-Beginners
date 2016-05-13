@@ -81,4 +81,4 @@ document.write(theNumber + 1);
 
 
 ## Exercise 
-[Click here for exercise for this lesson]()
+[Click here for exercise for this lesson](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session5_loops/lab_exercise5)
