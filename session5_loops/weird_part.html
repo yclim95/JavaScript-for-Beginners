@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Weird Part of JS</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+
+var theNumber = prompt("Enter a Number"); //Treated as a string
+document.write(theNumber + 1); //Concatenation 
+
+//To solve this 
+var theNumber = parseFloat(prompt("Enter a Number"));
+document.write(theNumber + 1); 
+
+		</script>
+	</body>
+</html>

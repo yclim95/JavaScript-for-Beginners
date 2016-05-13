@@ -12,3 +12,4 @@ Become more important lately as more processing moves from the server side to th
 3. [Session 2: Storing Information](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session2_storing_informations)
 4. [Session 3: Conditional Statement](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session3_conditional_statements)
 5. [Session 4: Dialog Boxes](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session4_dialog_boxes)
+6. [Session 5: Loops](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session5_loops)
