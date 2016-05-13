@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>First Javascript</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var operandOne;
+			var operandTwo;
+
+			operandOne = 125; //Integer
+			operandTwo = 15.371; //Floating point Number
+
+			document.write(operandOne); //125
+			document.write("<br />");
+			document.write(operandTwo); //15.371
+			document.write("<br />");
+
+			//Common operation 
+			document.write("Addition : " + (operandOne + operandTwo)); //140.371
+			document.write("<br />"); 
+			document.write("Substraction : " + (operandOne - operandTwo)); //109.629
+			document.write("<br />");
+			document.write("Multiplication : " + (operandOne * operandTwo));//1921.375
+			document.write("<br />");
+			document.write("Division : " + (operandOne / operandTwo));//8.13219699433999
+			document.write("<br />");
+
+			// Addition operation 
+			document.write("10 % 3 : " + (10 % 3)); //Remainder of 10/3
+			operandOne++; //Increment Operator (Add 1 to the var)
+			operandTwo--; //Decrement Operator (Subtract 1 from the var)
+
+			document.write("<br />");
+			document.write(operandOne);
+			document.write("<br />");
+			document.write(operandTwo);
+
+			//Cocatenation (+)
+			var teamCity = "New York";
+			var teamName = "Yankees";
+
+			var fullTeamInfo = teamCity + " " + teamName;
+
+			document.write("<br />");
+			document.write(fullTeamInfo); //New York Yankees
+		</script>
+	</body>
+</html>
