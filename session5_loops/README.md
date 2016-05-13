@@ -77,3 +77,8 @@ document.write(theNumber + 1);
 ```
 
 `parseFloat()` will retain the position of the number. 
+
+
+
+## Exercise 
+[Click here for exercise for this lesson]()

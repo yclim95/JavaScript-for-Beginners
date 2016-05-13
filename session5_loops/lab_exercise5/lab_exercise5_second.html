@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Lab Exercise 5 Part 1</title>
+
+		<script language= "javascript" type="text/javascript">
+		
+			function calculate(value1, value2, value3){
+					var amountInvested = parseFloat(value3);
+					var interestRate = (parseFloat(value1)/12);
+					var term = parseFloat(value2);
+
+				document.write("<table border='1' cellspacing='0'>");
+				document.write("<tr>"+
+					"<th>" + "Month" + "</th>" +
+					"<th>" + "Interest Earned" + "</th>" +
+					"<th>" + "Total" + "</th>" + 
+					"</tr>");
+
+				for (var i = 1; i <= term; i++){
+					document.write("<tr><td>" + i + "</td>"); //Month
+
+					document.write("<td>$ " + (amountInvested * interestRate).toFixed(2) + "</td>"); //Interest Earned
+
+				document.write("<td>$" + (amountInvested + (interestRate*amountInvested)).toFixed(2) +"</td></tr>");//total
+
+					amountInvested +=  interestRate * amountInvested;  //Changes made
+				}
+
+				document.write("</table>");
+
+			}
+
+		</script>
+	</head>
+	<body>
+		<script language= "javascript" type="text/javascript">
+			 var value1 = prompt("What is the yearly interest rate");
+
+			 var value2 = prompt("What is the term (in months)?");
+
+			 var value3 = prompt("What is the initial prinicpal ?");
+
+
+			if (!value1 || !value2 || !value3){ //Validation
+				alert("Please enter all the input!");
+			}else{
+				calculate(value1, value2, value3);
+			}
+			
+
+		</script>
+	</body>
+</html>
