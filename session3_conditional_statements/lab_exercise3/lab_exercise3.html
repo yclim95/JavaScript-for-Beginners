@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Conditional if-else, else-if</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var age = 35;
+
+			//Else-IF statement
+			if (age >= 60){
+				document.write("60 is the new 40. Do something exciting!");
+			}else if (age >= 50){
+				document.write("Enjoy your life now! You’ve dont well.");
+			}else if (age >= 40){
+				document.write("Time to start thinking abut retirement. Make sure you’re saving.");
+			}else if (age >= 30){
+				document.write("It&#39s time to get serious about career and family");
+			}else if (age >= 18){
+				document.write("Welcome to young adulthood... Have fund now (while you can!)");
+			}else{
+				document.write("You&#39re just a pup!");
+			}
+
+			var discountCode = "C";
+			var discountRate;
+			var amountOfSale = 27.95;
+
+			//Switch statement
+			switch (discountCode){
+				case "A":
+				case "a":
+					discountRate = 0.0325;
+					break;
+
+				case "B":
+				case "b":
+					discountRate = 0.05;
+					break;
+
+				case "C":
+				case "c":
+					discountRate = 0.075;
+					break;
+
+				case "D":
+				case "d":
+					discountRate = 0.10;
+					break;
+
+				default:
+			}
+
+			amountOfSale = amountOfSale - (amountOfSale * discountRate);
+
+			document.write("<br />Amount of Sale : " + amountOfSale);
+		</script>
+	</body>
+</html>
