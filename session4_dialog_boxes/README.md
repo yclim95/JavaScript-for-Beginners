@@ -41,3 +41,7 @@ if (age > 18){
 ```
 
 `prompt` is used to get answer from the user. 
+
+
+## Exercise 
+[Click here for exercise for this lesson]()

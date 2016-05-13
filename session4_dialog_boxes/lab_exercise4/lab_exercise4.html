@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Conditional if</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+
+//Point 2. Prompt Dialog Box
+var dogAgeInHumanYears = prompt("What is your dog's age in human years?");
+
+//Point 4.
+var dogAgeInDogYears = dogAgeInHumanYears * 7;
+
+//Point 5. Alert Dialog Box
+alert("Your dog is " + dogAgeInDogYears + " years old in dog years");
+
+//point 6. Confirm Dialog Box
+var confirmation = confirm("Shall I exit the program ?");
+
+if (confirmation){ //Return True
+	document.write("Exiting Dog Years Calculator");
+}else{ //Return False
+	document.write("Cancelling Exit");
+}
+		</script>
+	</body>
+</html>
