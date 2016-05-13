@@ -44,4 +44,4 @@ if (age > 18){
 
 
 ## Exercise 
-[Click here for exercise for this lesson]()
+[Click here for exercise for this lesson](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session4_dialog_boxes/lab_exercise4)

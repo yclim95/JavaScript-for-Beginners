@@ -16,4 +16,4 @@
 
 
 **Sample Code**
-[Click here for full sample code]()
+[Click here for full sample code](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session4_dialog_boxes/lab_exercise4/lab_exercise4.html)
