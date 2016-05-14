@@ -35,9 +35,9 @@ Save your completed file. Test and insure that it works correctly.
 
 6. Create four buttons labeled “Add”, “Subtract”, “Multiply” and “Divide”. Use onclick attributes to call an appropriate function named `add()`, `subtract()`, `multiply()` or `divide()` when the corresponding button is clicked.
 
-7. In the document head create <script> tags with the appropriate attributes and values so that you may place Javascript.
+7. In the document head create `<script>` tags with the appropriate attributes and values so that you may place Javascript.
 
-8. Add the add(), subtract(), multiply() and divide() functions to the script element in the document head.
+8. Add the `add()`, `subtract()`, `multiply()` and `divide()` functions to the script element in the document head.
 
 9. When you call the functions from the onclick event, pass them any two integers. Each function should output the resulting math of adding, subtracting, multiplying or dividing the integers.
 
