@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Events</title>
+		<script type="text/javascript">
+			function onButtonClick()
+			{
+				alert("You have successfully pressed the button!");
+			}
+
+			function whenPageLoads()
+			{
+				alert("Welcome to my page");
+			}
+		</script>
+	</head>
+
+	<body onLoad="whenPageLoads()">
+		<input type="button" value="Press Me" onclick="onButtonClick()"/> 
+		<input type="button" value="Press Me" onmouseover="onButtonClick()"/> 
+	</body>
+
+</html>
