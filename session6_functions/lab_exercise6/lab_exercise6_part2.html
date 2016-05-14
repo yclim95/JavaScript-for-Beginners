@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Events</title>
+		<script type="text/javascript">
+			//Simple way
+			function add(x, y)
+			{
+				alert(x+y);
+			}
+
+			function subtract(x,y)
+			{
+				alert(x-y);
+			}
+
+			function multiply(x,y)
+			{
+				alert(x*y);
+			}
+
+			function divide(x,y)
+			{
+				alert(x/y);
+			}
+
+			//No 10
+
+
+			function mathProb(x,y,operator)
+			{
+				switch(operator)
+				{
+					case "+" :
+						document.write(x + "+" + y + " = " + (x+y));
+						break;
+
+					case "-" :
+						document.write(x + "-" + y + " = " + (x-y));
+						break;
+
+					case "*" :
+						document.write(x + "*" + y + " = " + (x*y));
+						break;
+
+					case "/" :
+						document.write(x + "&divide" + y + " = " + (x/y));
+						break;
+
+					default :
+						alert("Invalid");
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<input type="button" value="Add" onclick="mathProb(10,5,'+')"/> 
+		<input type="button" value="Subtract" onclick="mathProb(10,5,'-')"/> 
+		<input type="button" value="Multiply" onclick="mathProb(10,5,'*')"/> 
+		<input type="button" value="Divide" onclick="mathProb(10,5,'/')"/> 
+	</body>
+
+</html>

@@ -195,9 +195,13 @@ function addTheseNumbers(x,y)
 		</script>
 	</head>
 
-	<body">
+	<body>
 		<input type="button" value="Press Me" onmouseover="onButtonClick()"/> 
 	</body>
 
 </html>
 ```
+
+
+## Exercise 
+[Click here for exercise for this lesson]()
