@@ -3,7 +3,7 @@
 ##Part 1:
 1. Download and load the file labStarter.html in to your text editor.
 
-2. Place a <script> element in the document head with the appropriate attributes and values so you can add Javascript code.
+2. Place a `<script>` element in the document head with the appropriate attributes and values so you can add Javascript code.
 
 3. In the script element you just created, write the signature of the following functions:
 
@@ -46,5 +46,5 @@ Save your completed file. Test and insure that it works correctly.
 
 **Sample Code**
 
-1. [Click here for full sample code Part 1]()
-2. [Click here for full sample code Part 2]()
+1. [Click here for full sample code Part 1](lab_exercise6_part1.html)
+2. [Click here for full sample code Part 2](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session6_functions/lab_exercise6/lab_exercise6_part2.html)

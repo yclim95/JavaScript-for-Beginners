@@ -204,4 +204,4 @@ function addTheseNumbers(x,y)
 
 
 ## Exercise 
-[Click here for exercise for this lesson]()
+[Click here for exercise for this lesson](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session6_functions/lab_exercise6)
