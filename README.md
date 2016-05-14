@@ -2,6 +2,7 @@
 JavaScript(js) is currently the word top popular scripting language for web development. JS is used for client-side web development purpose with HTML and CSS & it is use to help the web appear more interactive to users.
 
 Become more important lately as more processing moves from the server side to the clide side 
+
 1. More efficient 
 2. Better user experience 
 3. Event Based (the actual code response in advance to the web page)
@@ -14,3 +15,4 @@ Become more important lately as more processing moves from the server side to th
 5. [Session 4: Dialog Boxes](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session4_dialog_boxes)
 6. [Session 5: Loops](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session5_loops)
 7. [Session 6: Functions](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session6_functions)
+8. [Session 7: Arrays](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session7_arrays)
