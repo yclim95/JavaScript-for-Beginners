@@ -19,6 +19,7 @@ The function will be called when the corresponding button is clicked due to the 
 
 4. Code each function so that it outputs an appropriate greeting language when the button is clicked using an `alert()` box.
 
+```
 English = Hello! How are you?
 Spanish = Hola. Como estas?
 Hebrew = Shalom!
