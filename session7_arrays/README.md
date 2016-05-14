@@ -71,4 +71,4 @@ for (x in grades)
 1. [JavaScript Array Reference](http://www.w3schools.com/jsref/jsref_obj_array.asp)
 
 ## Exercise 
-[Click here for exercise for this lesson]()
+[Click here for exercise for this lesson](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session7_arrays/lab_exercise7)

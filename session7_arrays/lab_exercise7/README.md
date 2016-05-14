@@ -28,9 +28,9 @@ so theArray is output.
 
 **Output**
 
-![Output]()
+![Output](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session7_arrays/lab_exercise7/lab_exercise7.png)
 
 
 **Sample Code**
 
-1. [Click here for full sample code]()
+1. [Click here for full sample code](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session7_arrays/lab_exercise7/lab_exercise7.html)
