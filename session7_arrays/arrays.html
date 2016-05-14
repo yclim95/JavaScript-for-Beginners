@@ -1,9 +1,10 @@
-#Session7 Arrays
+<html>
+	<head>
+		<title>Basic Arrays</title>
+	</head>
 
-##1. Declaring Arrays
-###1. Standard Arrays
-
-```javascript
+	<body>
+		<script type="text/javascript">
 //Standard Array 
 var firstNames = new Array(); //Instantiation of an Array()Object
 firstNames[0] = "Mark";
@@ -11,35 +12,22 @@ firstNames[1] = "Collen";
 firstNames[2] = "Brett";
 firstNames[3] = "Joan";
 firstNames[4] = "Rick";
-``` 
 
-###2. Condenced Method 
-
-```javascript
+//Condenced Method
 var animals = new Array("dog", "cat", "mouse", "hampster", "toad");
-``` 
 
-###3. Literal Array
-
-```javascript
 //Literal Array
 var companies = ["Apple","Google","Cnet","Udemy","GE"];
-``` 
 
-##2. Displaying Array 
-###1. Basic
-
-```javascript
 alert(firstNames[3]);
 alert(animals[0]);
 alert(companies[2]);
-```
 
-###2. Use Loop to access and display all elements 
-
-```javascript
 //To Access & display all the element 
 for (var i = 0; i < firstNames.length; i++){
 	document.write(firstNames[i] + "<br />");
 }
-```
+		</script>
+	</body>
+
+</html>
