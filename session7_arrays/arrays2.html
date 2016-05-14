@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Arrays 2</title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+
+			var grades = [85,92,70,63,55,92,88,71,91,91];
+
+			//Push
+			grades.push(100,63);
+			//Pop
+			var poppedOff = grades.pop();
+
+			for (x in grades)
+			{
+				document.write("Iteration: " + x + "<br />");
+				document.write("Grade: " + grades[x] + "<br />");
+			}
+
+			document.write(poppedOff);
+			document.write("<br />");
+
+			//Sort
+			var names = ["Phil", "Bob", "Tom", "Oscar", "Mary", "Jane"];
+			names.sort();
+
+			for (x in names){
+				document.write("Names : " + names[x] + "<br />");
+			}
+		</script>
+	</body>
+
+</html>

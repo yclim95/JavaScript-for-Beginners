@@ -1,6 +1,8 @@
 #Session7 Arrays
 
 ##1. Declaring Arrays
+Array is an object that has its own properties and methods.
+
 ###1. Standard Arrays
 
 ```javascript
@@ -43,3 +45,27 @@ for (var i = 0; i < firstNames.length; i++){
 	document.write(firstNames[i] + "<br />");
 }
 ```
+
+##3. Manipulating Array 
+###1. For in loop
+You would not need to know what is the condition you need to meet to exit the loop. It will loop until there are no elements left. 
+
+```javascript
+var grades = [85,92,70,63,55,92,88,71,91,91];
+
+for (x in grades)
+{
+	document.write("Iteration: " + x + "<br />");
+	document.write("Grade: " + grades[x] + "<br />");
+}
+```
+
+###2. Push() 
+
+
+###3. Pop()
+
+
+
+##Resources 
+1. [JavaScript Array Reference](http://www.w3schools.com/jsref/jsref_obj_array.asp)
