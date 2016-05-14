@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Basic Arrays</title>
+		<script type="text/javascript">
+			function outputArray(theArray)
+			{
+				for (x in theArray){
+					document.write(theArray[x] + "<br />");
+				}
+
+				document.write("*****<br />");
+			}
+
+		</script>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+
+			var placesToVisit = new Array("rome","spain","dominician republic", "las vegas", "las angeles");
+
+			//Push No4,7
+			placesToVisit.push("Boise");
+
+			outputArray(placesToVisit);
+
+			//Shift No8 
+			placesToVisit.shift();
+			placesToVisit.shift();
+
+			outputArray(placesToVisit);
+
+			//Sorting
+			placesToVisit.sort();
+			outputArray(placesToVisit);
+
+		</script>
+	</body>
+
+</html>

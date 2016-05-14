@@ -24,3 +24,13 @@ so theArray is output.
 11. Using the function you created output the array a final time.
 
 12. Save and test your code in the browser. Debug as necessary to get the correct output.
+
+
+**Output**
+
+![Output]()
+
+
+**Sample Code**
+
+1. [Click here for full sample code]()

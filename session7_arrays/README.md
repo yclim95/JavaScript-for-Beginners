@@ -69,3 +69,6 @@ for (x in grades)
 
 ##Resources 
 1. [JavaScript Array Reference](http://www.w3schools.com/jsref/jsref_obj_array.asp)
+
+## Exercise 
+[Click here for exercise for this lesson]()
