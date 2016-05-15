@@ -49,4 +49,4 @@ document.write("<br />Screen Color Depth: " + screen.colorDepth);
 2. [Screen Objects documentation](http://www.w3schools.com/jsref/obj_screen.asp)
 
 ## Exercise 
-[Click here for exercise for this lesson]()
+[Click here for exercise for this lesson](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session9_obtaining_and_manipulating_user_info/lab_exercise9)

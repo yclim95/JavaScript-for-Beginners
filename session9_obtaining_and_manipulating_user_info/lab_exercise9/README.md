@@ -17,9 +17,9 @@ Using the appropriate method(s) move the **window** to the top left hand corner 
 
 **Output**
 
-![Output]()
+![Output](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session9_obtaining_and_manipulating_user_info/lab_exercise9/lab_exercise9.png)
 
 
 **Sample Code**
 
-1. [Click here for full sample code]()
+1. [Click here for full sample code](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session9_obtaining_and_manipulating_user_info/lab_exercise9/lab_exercise9.html)
