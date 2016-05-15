@@ -1,18 +1,17 @@
-#Session8 String Object
+<html>
+	<head>
+		<title>The String Object</title>
+	</head>
 
-## 1. length()
+	<body>
+		<script type="text/javascript">
 
-```javascript
 //length
 var pharase = "If you are strong enough there are no precedents.";
 
 document.write("Length: " + pharase.length);
 document.write("<br />");
-``` 
 
-## 2. charAt()
-
-```javascript
 //charAt() --> Character @ a specified position in the string 
 
 for(var i=0 ; i < pharase.length; i++){
@@ -20,33 +19,22 @@ for(var i=0 ; i < pharase.length; i++){
 	document.write(" | " + pharase.charCodeAt(i));//uniCode
 	document.write("<br />");
 }
-``` 
 
-## 3. indexOf()
-
-```javascript
 //indexOf()
 document.write("Index of s: " + pharase.indexOf(
 	's'));
 
 document.write("<br />");
-```
 
-## 4. replace()
-Does not manipulate the memory content value directly. 
-
-```javascript
 //Replace() --> Does note change the memory
 
 pharase = pharase.replace("strong","attractive");
 document.write(pharase);
 
 document.write("<br />");
-```
 
-## 5. split()
 
-```javascript
+
 //split() => From string to Array
 var names = "Mark,Bob,Tom,Brett,Mary,Lester,Charles";
 
@@ -58,7 +46,8 @@ for (var i = 0; i < moreNames.length; i++){
 	document.write(moreNames[i]);
 	document.write("<br />");
 }
-```
 
-## References 
-1. [Object String Properties & Methods](http://www.w3schools.com/jsref/jsref_obj_string.asp)
+		</script>
+	</body>
+
+</html>

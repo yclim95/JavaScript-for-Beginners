@@ -16,3 +16,4 @@ Become more important lately as more processing moves from the server side to th
 6. [Session 5: Loops](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session5_loops)
 7. [Session 6: Functions](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session6_functions)
 8. [Session 7: Arrays](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session7_arrays)
+9. [Session 8: String Object](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session8_string_object)
