@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>innerHTML</title>
+
+		<script type="text/javascript">
+			function changeContent()
+			{
+				document.getElementById("content").innerHTML = "<h3>See? The content has changed!</h3>"
+			}
+		</script>
+	</head>
+
+	<body>
+		<div id = "content">
+			<p>This paragraph will change when the document object's innerHTML property is accessed</p>
+		</div>
+		<input type = "button" value = "Press Me!" onclick = "changeContent()"/>
+	</body>
+
+</html>
