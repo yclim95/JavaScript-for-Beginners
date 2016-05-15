@@ -1,7 +1,7 @@
 #Lab Exercise 6
 
 ##Part 1:
-1. Download and load the file labStarter.html in to your text editor.
+1. Download and load the file [labStarter.html](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session6_functions/lab_exercise6/labStarter.html) in to your text editor.
 
 2. Place a `<script>` element in the document head with the appropriate attributes and values so you can add Javascript code.
 
