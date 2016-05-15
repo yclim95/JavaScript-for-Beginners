@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>The String Object</title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+		//Point 2
+			var poem = "With Rue My Heat Is Laden<br />";
+		//Point 3
+			poem += "For Golden Friends I had<br />";
+			poem += "For Many a Rose-Lipped Maiden<br />";
+			poem += "And Many a Light-Foot Lad<br /><br />";
+			poem += "By Brooks To Broad For Leaping<br />";
+			poem += "The Light-Foot Boys are Laid<br />";
+			poem += "The Rose-Lipped Girls are Sleeping<br />"
+			poem += "In Fields Where Roses Fade<br />";
+			var newPoem = "";
+
+			//Point 4 & 5
+			for (var i=0; i < poem.length; i++)
+			{
+				newPoem += poem.charAt(i);
+				document.write(poem.charAt(i));
+
+				newPoem = poem.replace(/[aeiouAEIOU]/g, "X");
+			}
+			document.write("<br /><br />");
+			document.write(newPoem + "<br /><br />");
+
+			//No.7
+			var sports = "tennis,ice,hockey,baseball,basketball,football,soccer,bowling";
+
+			//No.8
+			sportsArr = sports.split(',');
+
+			//No.9
+			sportsArr.sort();
+
+			//No.10
+
+			for (x in sportsArr)
+			{
+				document.write(sportsArr[x] + "<br />");
+			}
+
+
+		</script>
+	</body>
+
+</html>

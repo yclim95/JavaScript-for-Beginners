@@ -64,4 +64,4 @@ for (var i = 0; i < moreNames.length; i++){
 1. [Object String Properties & Methods](http://www.w3schools.com/jsref/jsref_obj_string.asp)
 
 ## Exercise 
-[Click here for exercise for this lesson]()
+[Click here for exercise for this lesson](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session8_string_object/lab_exercise8)
