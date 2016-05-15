@@ -18,3 +18,4 @@ Become more important lately as more processing moves from the server side to th
 8. [Session 7: Arrays](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session7_arrays)
 9. [Session 8: String Object](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session8_string_object)
 10. [Session 9: Obtaining & Manipulating User Information](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session9_obtaining_and_manipulating_user_info)
+11. [Session 10 : The Document Object](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session10_document_object)
