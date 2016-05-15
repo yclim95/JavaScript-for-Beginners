@@ -42,3 +42,11 @@ document.write("Location Protocol File " + window.location.protocol);
 document.write("<br />Screen Height: " + screen.height);
 document.write("<br />Screen Color Depth: " + screen.colorDepth);
 ```
+
+## Resources
+1. [Window Objects documentation](http://www.w3schools.com/jsref/obj_window.asp)
+2. [Navigator Objects documentation](http://www.w3schools.com/jsref/prop_nav_cookieenabled.asp)
+2. [Screen Objects documentation](http://www.w3schools.com/jsref/obj_screen.asp)
+
+## Exercise 
+[Click here for exercise for this lesson]()
