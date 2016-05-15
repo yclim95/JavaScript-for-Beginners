@@ -6,46 +6,46 @@
 	<body>
 		<script type="text/javascript">
 
-//length
-var pharase = "If you are strong enough there are no precedents.";
+			//length
+			var pharase = "If you are strong enough there are no precedents.";
 
-document.write("Length: " + pharase.length);
-document.write("<br />");
+			document.write("Length: " + pharase.length);
+			document.write("<br />");
 
-//charAt() --> Character @ a specified position in the string 
+			//charAt() --> Character @ a specified position in the string 
 
-for(var i=0 ; i < pharase.length; i++){
-	document.write(i + ": " + pharase.charAt(i));
-	document.write(" | " + pharase.charCodeAt(i));//uniCode
-	document.write("<br />");
-}
+			for(var i=0 ; i < pharase.length; i++){
+				document.write(i + ": " + pharase.charAt(i));
+				document.write(" | " + pharase.charCodeAt(i));//uniCode
+				document.write("<br />");
+			}
 
-//indexOf()
-document.write("Index of s: " + pharase.indexOf(
-	's'));
+			//indexOf()
+			document.write("Index of s: " + pharase.indexOf(
+				's'));
 
-document.write("<br />");
+			document.write("<br />");
 
-//Replace() --> Does note change the memory
+			//Replace() --> Does note change the memory
 
-pharase = pharase.replace("strong","attractive");
-document.write(pharase);
+			pharase = pharase.replace("strong","attractive");
+			document.write(pharase);
 
-document.write("<br />");
-
-
-
-//split() => From string to Array
-var names = "Mark,Bob,Tom,Brett,Mary,Lester,Charles";
-
-var moreNames = names.split(',');
-document.write("<br />");
+			document.write("<br />");
 
 
-for (var i = 0; i < moreNames.length; i++){
-	document.write(moreNames[i]);
-	document.write("<br />");
-}
+
+			//split() => From string to Array
+			var names = "Mark,Bob,Tom,Brett,Mary,Lester,Charles";
+
+			var moreNames = names.split(',');
+			document.write("<br />");
+
+
+			for (var i = 0; i < moreNames.length; i++){
+				document.write(moreNames[i]);
+				document.write("<br />");
+			}
 
 		</script>
 	</body>
