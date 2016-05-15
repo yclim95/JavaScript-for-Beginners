@@ -1,6 +1,6 @@
 #Lab Exercise 10
 
-1. Load Chapter 10 Lab Starter.html in to your text editor and examine the code. Notice that there is an onblur event associated with each input field. This event will fire the associated function when the text box loses focus. Notice also the empty span to the right of each input field in the table.
+1. Load [Chapter 10 Lab Starter.html](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session10_document_object/lab_exercise10/Chapter-10-Lab-Starter.html) in to your text editor and examine the code. Notice that there is an onblur event associated with each input field. This event will fire the associated function when the text box loses focus. Notice also the empty span to the right of each input field in the table.
 
 2. We’re going to create a form that provides the user with immediate feedback if they leave a required field blank. For the purpose of this exercise all fields are required.
 
@@ -26,9 +26,9 @@
 
 **Output**
 
-![Output]()
+![Output](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session10_document_object/lab_exercise10/lab_exercise10.png)
 
 
 **Sample Code**
 
-1. [Click here for full sample code]()
+1. [Click here for full sample code](https://github.com/yclim95/JavaScript-for-Beginners/blob/master/session10_document_object/lab_exercise10/lab_exercise10.html)
