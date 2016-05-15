@@ -84,4 +84,4 @@ Here we'll have a basic understanding of AJAX(Asynchronous JavaScript & XML). By
 ```
 
 ## Exercise 
-[Click here for exercise for this lesson]()
+[Click here for exercise for this lesson](https://github.com/yclim95/JavaScript-for-Beginners/tree/master/session10_document_object/lab_exercise10)

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<script language="javascript" type="text/javascript">
+function validFirst()
+{
+    //alert("In validFirst()");
+    var firstTextBoxContent = document.getElementById("first").value;
+
+    if (firstTextBoxContent != null && firstTextBoxContent != "")
+    {
+        document.getElementById("firstError").innerHTML = "";
+       document.getElementById("first").style.backgroundColor = "white";
+
+       if (firstTextBoxContent.length < 2){
+            document.getElementById("firstError").innerHTML = "Response too short";
+       }else{
+            document.getElementById("firstError").innerHTML = "";
+       }
+    }
+
+    else
+    {
+       document.getElementById("firstError").innerHTML = "Required Field";
+       document.getElementById("first").style.backgroundColor = "red";
+
+    }
+}
+function validLast()
+{
+    var lastTextBoxContent = document.getElementById("last").value;
+
+    if (lastTextBoxContent != null && lastTextBoxContent != "")
+    {
+        document.getElementById("lastError").innerHTML = "";
+       document.getElementById("last").style.backgroundColor = "white";
+
+        if (lastTextBoxContent.length < 2){
+            document.getElementById("lastError").innerHTML = "Response too short";
+       }else{
+            document.getElementById("lastError").innerHTML = "";
+       }
+    }
+
+    else
+    {
+       document.getElementById("lastError").innerHTML = "Required Field";
+       document.getElementById("last").style.backgroundColor = "red";
+
+    }
+}
+function validEmail()
+{
+    var emailTextBoxContent = document.getElementById("email").value;
+
+    if (emailTextBoxContent != null && emailTextBoxContent != "")
+    {
+        document.getElementById("emailError").innerHTML = "";
+       document.getElementById("email").style.backgroundColor = "white";
+
+        if (emailTextBoxContent.length < 2){
+            document.getElementById("emailError").innerHTML = "Response too short";
+       }else{
+            document.getElementById("emailError").innerHTML = "";
+       }
+    }
+
+    else
+    {
+       document.getElementById("emailError").innerHTML = "Required Field";
+       document.getElementById("email").style.backgroundColor = "red";
+
+    }
+}
+function validPhone()
+{
+    var phoneTextBoxContent = document.getElementById("phone").value;
+
+    if (phoneTextBoxContent != null && phoneTextBoxContent != "")
+    {
+        document.getElementById("phoneError").innerHTML = "";
+       document.getElementById("phone").style.backgroundColor = "white";
+
+        if (phoneTextBoxContent.length < 2){
+            document.getElementById("phoneError").innerHTML = "Response too short";
+       }else{
+            document.getElementById("phoneError").innerHTML = "";
+       }
+    }
+
+    else
+    {
+       document.getElementById("phoneError").innerHTML = "Required Field";
+       document.getElementById("phone").style.backgroundColor = "red";
+
+    }
+}
+</script>
+<head>
+    <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+<title>Chapter 10 Lab</title>
+</head>
+<body>
+    <table>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" id="first" onchange="validFirst()"></td>
+                <td><span id="firstError"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" id="last" onchange="validLast()"></td>
+                <td><span id="lastError"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" id="email" onchange="validEmail()"></td>
+                <td><span id="emailError"></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="text" id="phone" onchange="validPhone()"></td>
+                <td><span id="phoneError"></td>
+            </tr>
+            <tr>
+                <td><input type="submit"/></td>
+                <td></td>
+                <td></td>
+<script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://d1ros97qkrwjf5.cloudfront.net/33/eum/rum-staging.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrf2","beacon-1.newrelic.com","3bb663a57e",511624,"NVJWNRdVDEICVBVRDQwYYRMMGwtfB1IZFhIKRw==",0,401,new Date().getTime()]);</script>
+</body>
+</html>
